@@ -27,6 +27,10 @@ a{
 
 
 /* PORTFOLIO GALLERY*/
+.port-hov:hover{
+    -webkit-transform: scaleX(-1);
+    transform: scale(1.03, 1.03);
+}
 
 /* The Modal (background) */
 .modal {
