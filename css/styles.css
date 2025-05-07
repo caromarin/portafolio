@@ -30,6 +30,7 @@ a{
 .port-hov:hover{
     -webkit-transform: scaleX(-1);
     transform: scale(1.03, 1.03);
+    transition: 300ms ease-in-out;
 }
 
 /* The Modal (background) */
