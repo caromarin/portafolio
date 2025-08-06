@@ -16,7 +16,7 @@ body{
   background-image: url(../IMG/portafolio-portadas-bg-50-mod.jpg);
 }
 img{
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 16px;
 }
 a{
@@ -218,6 +218,7 @@ box-shadow:10px 10px 5px lightgray;
  .habilidades{
   width: 100%;
   height: -webkit-fill-available;
+  object-fit: cover;
  }
  .portada{
   background-image: url(../IMG/portafolio-portada-vacia.png);
