@@ -16,7 +16,7 @@ body{
   background-image: url(../IMG/portafolio-portadas-bg-50-mod.jpg);
 }
 img{
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 16px;
 }
 a{
